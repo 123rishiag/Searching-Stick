@@ -145,9 +145,10 @@
     <ClCompile Include="source\UI\UIElement\AnimatedImageView.cpp" />
     <ClCompile Include="source\UI\UIElement\ButtonView.cpp" />
     <ClCompile Include="source\UI\UIElement\ImageView.cpp" />
+    <ClCompile Include="source\UI\UIElement\RectangleShapeView.cpp" />
     <ClCompile Include="source\UI\UIElement\TextView.cpp" />
     <ClCompile Include="source\UI\UIElement\UIView.cpp" />
-    <ClCompile Include="source\UI\UISerive.cpp" />
+    <ClCompile Include="source\UI\UIService.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Event\EventService.h" />
@@ -162,6 +163,7 @@
     <ClInclude Include="include\UI\UIElement\AnimatedImageView.h" />
     <ClInclude Include="include\UI\UIElement\ButtonView.h" />
     <ClInclude Include="include\UI\UIElement\ImageView.h" />
+    <ClInclude Include="include\UI\UIElement\RectangleShapeView.h" />
     <ClInclude Include="include\UI\UIElement\TextView.h" />
     <ClInclude Include="include\UI\UIElement\UIView.h" />
     <ClInclude Include="include\UI\UIService.h" />
