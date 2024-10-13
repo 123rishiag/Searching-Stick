@@ -3,12 +3,17 @@
 
 namespace Gameplay
 {
+	namespace Collection
+	{
+		class StickCollectionContoller;
+		enum class SearchType;
+	}
 	class GameplayController;
-
 	class GameplayService
 	{
 	private:
 		GameplayController* gameplay_controller;
+		Collection::StickCollectionContoller* collection_controller;
 
 	public:
 		GameplayService();
@@ -19,5 +24,9 @@ namespace Gameplay
 		void render();
 
 		void reset();
+		void searchElement(Collection::SearchType search_type);
+
+		Collection::SearchType getCurrentSearchType();
+		int getNumberOfSticks();
 	};
 }
