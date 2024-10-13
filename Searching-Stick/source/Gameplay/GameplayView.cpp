@@ -14,7 +14,7 @@ namespace Gameplay
 
 	void GameplayView::initialize(GameplayController* gameplay_controller)
 	{
-		gameplay_controller = gameplay_controller;
+		this->gameplay_controller = gameplay_controller;
 		initializeBackgroundImage();
 	}
 
