@@ -15,6 +15,8 @@ namespace Gameplay
 		GameplayController* gameplay_controller;
 		Collection::StickCollectionContoller* collection_controller;
 
+		void initializeRandomSeed();
+
 	public:
 		GameplayService();
 		~GameplayService();
@@ -23,12 +25,15 @@ namespace Gameplay
 		void update();
 		void render();
 
-		void initializeRandomSeed();
-
-		void reset();
 		void searchElement(Collection::SearchType search_type);
 
 		Collection::SearchType getCurrentSearchType();
+		int getNumberOfComparisons();
+		int getNumberOfArrayAccess();
 		int getNumberOfSticks();
+		int getDelayMilliseconds();
+		sf::String getTimeComplexity();
+
+		void reset();
 	};
 }

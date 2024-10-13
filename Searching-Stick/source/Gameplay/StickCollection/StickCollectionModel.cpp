@@ -12,6 +12,9 @@ namespace Gameplay
 
 		void Gameplay::Collection::StickCollectionModel::update() { }
 
-		void Gameplay::Collection::StickCollectionModel::setElementSpacing(float space) { }
+		void Gameplay::Collection::StickCollectionModel::setElementSpacing(float space) 
+		{ 
+			elements_spacing = space; 
+		}
 	}
 }
