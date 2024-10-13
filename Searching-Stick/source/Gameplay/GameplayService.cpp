@@ -1,9 +1,12 @@
 #include "Gameplay/GameplayService.h"
 #include "Gameplay/GameplayController.h"
+#include "Gameplay/StickCollection/StickCollectionModel.h"
+#include "Gameplay/StickCollection/StickCollectionController.h"
 #include "Global/ServiceLocator.h"
 
 namespace Gameplay
 {
+	using namespace Collection;
 	using namespace Global;
 
 	GameplayService::GameplayService()

@@ -63,6 +63,24 @@
     <ClCompile Include="source\UI\UIElement\RectangleShapeView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\Gameplay\GameplayController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gameplay\GameplayService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gameplay\GameplayView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gameplay\StickCollection\StickCollectionContoller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gameplay\StickCollection\StickCollectionModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gameplay\StickCollection\StickCollectionView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Event\EventService.h">
@@ -111,6 +129,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\UI\UIElement\RectangleShapeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\GameplayController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\GameplayService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\GameplayView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\StickCollection\Stick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\StickCollection\StickCollectionModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\StickCollection\StickCollectionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay\StickCollection\StickCollectionController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
