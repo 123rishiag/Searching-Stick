@@ -23,6 +23,8 @@ namespace Gameplay
 		void update();
 		void render();
 
+		void initializeRandomSeed();
+
 		void reset();
 		void searchElement(Collection::SearchType search_type);
 
