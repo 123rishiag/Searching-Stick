@@ -264,6 +264,11 @@ namespace Gameplay
 
 		void Gameplay::Collection::StickCollectionContoller::destroy()
 		{
+			if (search_thread.joinable())
+			{
+				search_thread.join();
+			}
+
 			for (int i = 0; i < sticks.size(); i++)
 			{
 				delete(sticks[i]);
