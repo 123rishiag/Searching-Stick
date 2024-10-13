@@ -28,6 +28,8 @@ namespace Gameplay
 			collection_model->initialize();
 			initializeSticks();
 			reset();
+
+			time_complexity = "XYZ";
 		}
 
 		void Gameplay::Collection::StickCollectionContoller::initializeSticks()
@@ -113,7 +115,7 @@ namespace Gameplay
 			switch (search_type) // checks the value of search_type
 			{
 			case Gameplay::Collection::SearchType::LINEAR_SEARCH: // checks if the search type is LINEAR SEARCH
-
+				time_complexity = "O(n)"; // assigned "O(n)" to 'time_complexity'
 				// obtains delay for linear search
 				current_operation_delay = collection_model->linear_search_delay;
 
@@ -191,6 +193,11 @@ namespace Gameplay
 		int Gameplay::Collection::StickCollectionContoller::getDelayMilliseconds()
 		{
 			return current_operation_delay;
+		}
+
+		sf::String Gameplay::Collection::StickCollectionContoller::getTimeComplexity()
+		{
+			return time_complexity;
 		}
 
 		void Gameplay::Collection::StickCollectionContoller::reset()
