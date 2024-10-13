@@ -43,11 +43,12 @@ namespace Gameplay
             void update();
             void render();
 
-            void reset();
+            void searchElement(SearchType search_type);
 
             SearchType getSearchType();
-
             int getNumberOfSticks();
+
+            void reset();
         };
     }
 }
