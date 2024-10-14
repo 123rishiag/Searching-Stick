@@ -82,6 +82,8 @@ namespace UI
         void MainMenuUIController::binarySearchButtonCallback()
         {
             ServiceLocator::getInstance()->getSoundService()->playSound(SoundType::BUTTON_CLICK);
+            GameService::setGameState(GameState::GAMEPLAY);
+            ServiceLocator::getInstance()->getGameplayService()->searchElement(Gameplay::Collection::SearchType::BINARY_SEARCH);
         }
 
         void MainMenuUIController::quitButtonCallback()
