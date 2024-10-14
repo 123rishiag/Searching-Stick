@@ -37,6 +37,9 @@ namespace Gameplay
             void initializeSticksArray();
             float calculateStickHeight(int array_pos);
 
+            bool compareElementsByData(const Stick* a, const Stick* b) const;
+
+            void processBinarySearch();
             void processLinearSearch();
             void processSearchThreadState();
             void joinThreads();
@@ -57,6 +60,7 @@ namespace Gameplay
             void update();
             void render();
 
+            void sortElements();
             void searchElement(SearchType search_type);
 
             SearchType getSearchType();
