@@ -18,27 +18,27 @@ Welcome to **Searching Stick**, a project designed to visually demonstrate and c
 
 ## Project Structure
 
+### Services and Their Model, Controllers
+
 - **GraphicService**: Manages game window and rendering operations.
 - **EventService**: Handles user input and game events.
 - **TimeService**: Manages game timing and countdowns.
 - **SoundService**: Manages sound effects and music playback.
-
 - **UIService**: Manages UI components.
   - **UI Controllers**: `SplashScreenUIController`, `MainMenuUIController`, `GameplayUIController`
   - **UI Elements**: `UIView`, `TextView`, `ImageView`, `ButtonView`, `AnimatedImageView`, `RectangleShapeView`
   - **UI Interface**: `IUIController`
-
 - **GameplayService**: Manages core gameplay mechanics.
   - **Controllers**: `GameplayController`, `StickCollectionController`
   - **Models**: `StickCollectionModel`
   - **Views**: `GameplayView`, `StickCollectionView`
   - **Stick**: Structure representing the data in the search algorithms.
 
-- **Additional Core Components**:
-  - **Main**: Entry point of the game.
-  - **GameService**: Core service that initializes and manages the game.
-  - **ServiceLocator**: Coordinates the initialization, updating, and rendering of all services, ensuring smooth communication between components.
-  - **Config**: Manages global configurations like file paths for assets, textures, sounds, and fonts.
+### Additional Core Components
+- **Main**: Entry point of the game.
+- **GameService**: Core service that initializes and manages the game.
+- **ServiceLocator**: Coordinates the initialization, updating, and rendering of all services, ensuring smooth communication between components.
+- **Config**: Manages global configurations like file paths for assets, textures, sounds, and fonts.
 
 ## How to Play
 
