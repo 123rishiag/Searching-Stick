@@ -11,7 +11,7 @@ Welcome to **Searching Stick**, a project designed to visually demonstrate and c
 
 ## Learning Outcomes
 
-- **Linear Search and Binary Search**: Gained practical understanding of how Linear and Binary Search algorithms work.
+- **Search Algorithms**: Gained practical understanding of how Linear and Binary Search algorithms work.
 - **SFML Framework**: Gained hands-on experience using SFML to create engaging and interactive visualizations.
 - **Object-Oriented Programming**: Structured the project with services, controllers, and models to ensure clean, modular design.
 - **Algorithm Optimization**: Learned the comparative efficiency of Linear and Binary Search in different scenarios.
