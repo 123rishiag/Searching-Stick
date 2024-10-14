@@ -32,7 +32,7 @@ Welcome to **Searching Stick**, a project designed to visually demonstrate and c
   - **Controllers**: `GameplayController`, `StickCollectionController`
   - **Models**: `StickCollectionModel`
   - **Views**: `GameplayView`, `StickCollectionView`
-  - **Stick**: Structure representing the data in the search algorithms.
+  - **Stick**: Structure representing the stick data in the search algorithms.
 
 ### Additional Core Components
 - **Main**: Entry point of the game.
